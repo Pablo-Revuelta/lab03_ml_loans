@@ -14264,7 +14264,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -14294,7 +14294,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pathfile1</span> <span class="o">=</span> <span class="s1">&#39;../data/loans_ind_clean.csv&#39;</span>
@@ -14308,7 +14308,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">loans_ind</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">pathfile1</span><span class="p">,</span> <span class="n">engine</span> <span class="o">=</span> <span class="s1">&#39;python&#39;</span><span class="p">)</span>
@@ -14328,7 +14328,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 
 
 
@@ -14510,7 +14510,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="n">loans_ind</span><span class="p">[</span><span class="s1">&#39;loan_status&#39;</span><span class="p">]</span>
@@ -14526,7 +14526,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">numeric_transformer_0</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">(</span><span class="n">steps</span> <span class="o">=</span> <span class="p">[</span>
@@ -14553,7 +14553,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">numeric_features_0</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;bc_open_to_buy&#39;</span><span class="p">,</span> <span class="s1">&#39;mths_since_recent_bc&#39;</span><span class="p">,</span> <span class="s1">&#39;revol_util&#39;</span><span class="p">,</span> <span class="s1">&#39;emp_length&#39;</span><span class="p">,</span> <span class="s1">&#39;term&#39;</span><span class="p">,</span> <span class="s1">&#39;installment&#39;</span><span class="p">,</span> <span class="s1">&#39;annual_inc&#39;</span><span class="p">,</span> <span class="s1">&#39;inq_last_6mths&#39;</span><span class="p">,</span>
@@ -14581,7 +14581,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">preprocessor</span> <span class="o">=</span> <span class="n">ColumnTransformer</span><span class="p">(</span>
@@ -14601,7 +14601,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
@@ -14620,7 +14620,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_y</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -14639,7 +14639,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 
 
 
@@ -14659,7 +14659,7 @@ Name: loan_status, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_y</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -14678,7 +14678,7 @@ Name: loan_status, dtype: int64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[68]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 
 
 
@@ -14739,7 +14739,7 @@ xgboost.fit(train_x, train_y)
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Wall time: 2min 19s
+<pre>Wall time: 1min 29s
 </pre>
 </div>
 </div>
@@ -14762,8 +14762,6 @@ xgboost.fit(train_x, train_y)
                                                   Index([&#39;bc_open_to_buy&#39;, &#39;mths_since_recent_bc&#39;, &#39;revol_util&#39;, &#39;emp_length&#39;,
        &#39;term&#39;, &#39;installment&#39;, &#39;annual_inc&#39;, &#39;inq_last_6mths&#39;,
        &#39;mths_since_last_delinq&#39;, &#39;open_acc&#39;, &#39;revol_bal&#39;, &#39;total_ac...
-                                                  Index([&#39;percent_bc_gt_75&#39;, &#39;bc_util&#39;, &#39;avg_cur_bal&#39;, &#39;num_rev_accts&#39;, &#39;dti&#39;], dtype=&#39;object&#39;)),
-                                                 (&#39;cat&#39;,
                                                   Pipeline(steps=[(&#39;imputer&#39;,
                                                                    SimpleImputer(fill_value=&#39;sin_info&#39;,
                                                                                  strategy=&#39;constant&#39;)),
@@ -14773,7 +14771,7 @@ xgboost.fit(train_x, train_y)
        &#39;addr_state&#39;, &#39;earliest_cr_line&#39;, &#39;initial_list_status&#39;,
        &#39;application_type&#39;],
       dtype=&#39;object&#39;))])),
-                (&#39;classifier&#39;, XGBClassifier())])</pre>
+                (&#39;classifier&#39;, XGBClassifier(random_state=123))])</pre>
 </div>
 
 </div>
@@ -14820,7 +14818,7 @@ xgboost.fit(train_x, train_y)
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_y</span> <span class="o">=</span> <span class="n">xgboost</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">test_x</span><span class="p">)</span>
@@ -14848,7 +14846,7 @@ xgboost.fit(train_x, train_y)
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">xgboost</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">test_x</span><span class="p">,</span> <span class="n">test_y</span><span class="p">)</span>
@@ -14867,7 +14865,7 @@ xgboost.fit(train_x, train_y)
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
 
 
 
@@ -14885,7 +14883,7 @@ xgboost.fit(train_x, train_y)
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">xgboost</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">))</span>
@@ -14904,7 +14902,7 @@ xgboost.fit(train_x, train_y)
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#params = {</span>
@@ -14924,7 +14922,7 @@ xgboost.fit(train_x, train_y)
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#xgboost_gs = GridSearchCV(xgboost,</span>
@@ -14936,10 +14934,10 @@ xgboost.fit(train_x, train_y)
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#%%time</span>
@@ -14952,247 +14950,6 @@ xgboost.fit(train_x, train_y)
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">Empty</span>                                     Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\joblib\parallel.py</span> in <span class="ansi-cyan-fg">dispatch_one_batch</span><span class="ansi-blue-intense-fg ansi-bold">(self, iterator)</span>
-<span class="ansi-green-fg">    826</span>             <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 827</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span>tasks <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_ready_batches<span class="ansi-yellow-intense-fg ansi-bold">.</span>get<span class="ansi-yellow-intense-fg ansi-bold">(</span>block<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    828</span>             <span class="ansi-green-intense-fg ansi-bold">except</span> queue<span class="ansi-yellow-intense-fg ansi-bold">.</span>Empty<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\queue.py</span> in <span class="ansi-cyan-fg">get</span><span class="ansi-blue-intense-fg ansi-bold">(self, block, timeout)</span>
-<span class="ansi-green-fg">    166</span>                 <span class="ansi-green-intense-fg ansi-bold">if</span> <span class="ansi-green-intense-fg ansi-bold">not</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_qsize<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 167</span><span class="ansi-yellow-intense-fg ansi-bold">                     </span><span class="ansi-green-intense-fg ansi-bold">raise</span> Empty
-<span class="ansi-green-fg">    168</span>             <span class="ansi-green-intense-fg ansi-bold">elif</span> timeout <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-red-intense-fg ansi-bold">Empty</span>: 
-
-During handling of the above exception, another exception occurred:
-
-<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>                         Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-61-2259008f751a&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>get_ipython<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>run_cell_magic<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;time&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;\nxgboost_gs.fit(train_x, train_y)&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\IPython\core\interactiveshell.py</span> in <span class="ansi-cyan-fg">run_cell_magic</span><span class="ansi-blue-intense-fg ansi-bold">(self, magic_name, line, cell)</span>
-<span class="ansi-green-fg">   2115</span>             magic_arg_s <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>var_expand<span class="ansi-yellow-intense-fg ansi-bold">(</span>line<span class="ansi-yellow-intense-fg ansi-bold">,</span> stack_depth<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   2116</span>             <span class="ansi-green-intense-fg ansi-bold">with</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>builtin_trap<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 2117</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span>result <span class="ansi-yellow-intense-fg ansi-bold">=</span> fn<span class="ansi-yellow-intense-fg ansi-bold">(</span>magic_arg_s<span class="ansi-yellow-intense-fg ansi-bold">,</span> cell<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   2118</span>             <span class="ansi-green-intense-fg ansi-bold">return</span> result
-<span class="ansi-green-fg">   2119</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">&lt;decorator-gen-54&gt;</span> in <span class="ansi-cyan-fg">time</span><span class="ansi-blue-intense-fg ansi-bold">(self, line, cell, local_ns)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\IPython\core\magic.py</span> in <span class="ansi-cyan-fg">&lt;lambda&gt;</span><span class="ansi-blue-intense-fg ansi-bold">(f, *a, **k)</span>
-<span class="ansi-green-fg">    186</span>     <span class="ansi-red-intense-fg ansi-bold"># but it&#39;s overkill for just that one bit of state.</span>
-<span class="ansi-green-fg">    187</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> magic_deco<span class="ansi-yellow-intense-fg ansi-bold">(</span>arg<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 188</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>call <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-green-intense-fg ansi-bold">lambda</span> f<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span>a<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>k<span class="ansi-yellow-intense-fg ansi-bold">:</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">*</span>a<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>k<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    189</span> 
-<span class="ansi-green-fg">    190</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> callable<span class="ansi-yellow-intense-fg ansi-bold">(</span>arg<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\IPython\core\magics\execution.py</span> in <span class="ansi-cyan-fg">time</span><span class="ansi-blue-intense-fg ansi-bold">(self, line, cell, local_ns)</span>
-<span class="ansi-green-fg">   1187</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> mode<span class="ansi-yellow-intense-fg ansi-bold">==</span><span class="ansi-blue-intense-fg ansi-bold">&#39;eval&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">   1188</span>             st <span class="ansi-yellow-intense-fg ansi-bold">=</span> clock2<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1189</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>out <span class="ansi-yellow-intense-fg ansi-bold">=</span> eval<span class="ansi-yellow-intense-fg ansi-bold">(</span>code<span class="ansi-yellow-intense-fg ansi-bold">,</span> glob<span class="ansi-yellow-intense-fg ansi-bold">,</span> local_ns<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   1190</span>             end <span class="ansi-yellow-intense-fg ansi-bold">=</span> clock2<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   1191</span>         <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">&lt;timed eval&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\utils\validation.py</span> in <span class="ansi-cyan-fg">inner_f</span><span class="ansi-blue-intense-fg ansi-bold">(*args, **kwargs)</span>
-<span class="ansi-green-fg">     70</span>                           FutureWarning)
-<span class="ansi-green-fg">     71</span>         kwargs<span class="ansi-yellow-intense-fg ansi-bold">.</span>update<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">{</span>k<span class="ansi-yellow-intense-fg ansi-bold">:</span> arg <span class="ansi-green-intense-fg ansi-bold">for</span> k<span class="ansi-yellow-intense-fg ansi-bold">,</span> arg <span class="ansi-green-intense-fg ansi-bold">in</span> zip<span class="ansi-yellow-intense-fg ansi-bold">(</span>sig<span class="ansi-yellow-intense-fg ansi-bold">.</span>parameters<span class="ansi-yellow-intense-fg ansi-bold">,</span> args<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">}</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 72</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     73</span>     <span class="ansi-green-intense-fg ansi-bold">return</span> inner_f
-<span class="ansi-green-fg">     74</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\model_selection\_search.py</span> in <span class="ansi-cyan-fg">fit</span><span class="ansi-blue-intense-fg ansi-bold">(self, X, y, groups, **fit_params)</span>
-<span class="ansi-green-fg">    734</span>                 <span class="ansi-green-intense-fg ansi-bold">return</span> results
-<span class="ansi-green-fg">    735</span> 
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 736</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_run_search<span class="ansi-yellow-intense-fg ansi-bold">(</span>evaluate_candidates<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    737</span> 
-<span class="ansi-green-fg">    738</span>         <span class="ansi-red-intense-fg ansi-bold"># For multi-metric evaluation, store the best_index_, best_params_ and</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\model_selection\_search.py</span> in <span class="ansi-cyan-fg">_run_search</span><span class="ansi-blue-intense-fg ansi-bold">(self, evaluate_candidates)</span>
-<span class="ansi-green-fg">   1186</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> _run_search<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> evaluate_candidates<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">   1187</span>         <span class="ansi-blue-intense-fg ansi-bold">&#34;&#34;&#34;Search all candidates in param_grid&#34;&#34;&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1188</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>evaluate_candidates<span class="ansi-yellow-intense-fg ansi-bold">(</span>ParameterGrid<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>param_grid<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   1189</span> 
-<span class="ansi-green-fg">   1190</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\model_selection\_search.py</span> in <span class="ansi-cyan-fg">evaluate_candidates</span><span class="ansi-blue-intense-fg ansi-bold">(candidate_params)</span>
-<span class="ansi-green-fg">    713</span>                                <span class="ansi-green-intense-fg ansi-bold">for</span> parameters<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">(</span>train<span class="ansi-yellow-intense-fg ansi-bold">,</span> test<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    714</span>                                in product(candidate_params,
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 715</span><span class="ansi-yellow-intense-fg ansi-bold">                                           cv.split(X, y, groups)))
-</span><span class="ansi-green-fg">    716</span> 
-<span class="ansi-green-fg">    717</span>                 <span class="ansi-green-intense-fg ansi-bold">if</span> len<span class="ansi-yellow-intense-fg ansi-bold">(</span>out<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-yellow-intense-fg ansi-bold">&lt;</span> <span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\joblib\parallel.py</span> in <span class="ansi-cyan-fg">__call__</span><span class="ansi-blue-intense-fg ansi-bold">(self, iterable)</span>
-<span class="ansi-green-fg">   1049</span>                 self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_iterating <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_original_iterator <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">not</span> <span class="ansi-green-intense-fg ansi-bold">None</span>
-<span class="ansi-green-fg">   1050</span> 
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1051</span><span class="ansi-yellow-intense-fg ansi-bold">             </span><span class="ansi-green-intense-fg ansi-bold">while</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>dispatch_one_batch<span class="ansi-yellow-intense-fg ansi-bold">(</span>iterator<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">   1052</span>                 <span class="ansi-green-intense-fg ansi-bold">pass</span>
-<span class="ansi-green-fg">   1053</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\joblib\parallel.py</span> in <span class="ansi-cyan-fg">dispatch_one_batch</span><span class="ansi-blue-intense-fg ansi-bold">(self, iterator)</span>
-<span class="ansi-green-fg">    836</span>                 big_batch_size <span class="ansi-yellow-intense-fg ansi-bold">=</span> batch_size <span class="ansi-yellow-intense-fg ansi-bold">*</span> n_jobs
-<span class="ansi-green-fg">    837</span> 
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 838</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span>islice <span class="ansi-yellow-intense-fg ansi-bold">=</span> list<span class="ansi-yellow-intense-fg ansi-bold">(</span>itertools<span class="ansi-yellow-intense-fg ansi-bold">.</span>islice<span class="ansi-yellow-intense-fg ansi-bold">(</span>iterator<span class="ansi-yellow-intense-fg ansi-bold">,</span> big_batch_size<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    839</span>                 <span class="ansi-green-intense-fg ansi-bold">if</span> len<span class="ansi-yellow-intense-fg ansi-bold">(</span>islice<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-yellow-intense-fg ansi-bold">==</span> <span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    840</span>                     <span class="ansi-green-intense-fg ansi-bold">return</span> <span class="ansi-green-intense-fg ansi-bold">False</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\model_selection\_search.py</span> in <span class="ansi-cyan-fg">&lt;genexpr&gt;</span><span class="ansi-blue-intense-fg ansi-bold">(.0)</span>
-<span class="ansi-green-fg">    711</span>                                                        parameters<span class="ansi-yellow-intense-fg ansi-bold">=</span>parameters<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">    712</span>                                                        **fit_and_score_kwargs)
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 713</span><span class="ansi-yellow-intense-fg ansi-bold">                                </span><span class="ansi-green-intense-fg ansi-bold">for</span> parameters<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">(</span>train<span class="ansi-yellow-intense-fg ansi-bold">,</span> test<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    714</span>                                in product(candidate_params,
-<span class="ansi-green-fg">    715</span>                                           cv.split(X, y, groups)))
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\utils\validation.py</span> in <span class="ansi-cyan-fg">inner_f</span><span class="ansi-blue-intense-fg ansi-bold">(*args, **kwargs)</span>
-<span class="ansi-green-fg">     70</span>                           FutureWarning)
-<span class="ansi-green-fg">     71</span>         kwargs<span class="ansi-yellow-intense-fg ansi-bold">.</span>update<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">{</span>k<span class="ansi-yellow-intense-fg ansi-bold">:</span> arg <span class="ansi-green-intense-fg ansi-bold">for</span> k<span class="ansi-yellow-intense-fg ansi-bold">,</span> arg <span class="ansi-green-intense-fg ansi-bold">in</span> zip<span class="ansi-yellow-intense-fg ansi-bold">(</span>sig<span class="ansi-yellow-intense-fg ansi-bold">.</span>parameters<span class="ansi-yellow-intense-fg ansi-bold">,</span> args<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">}</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 72</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     73</span>     <span class="ansi-green-intense-fg ansi-bold">return</span> inner_f
-<span class="ansi-green-fg">     74</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\base.py</span> in <span class="ansi-cyan-fg">clone</span><span class="ansi-blue-intense-fg ansi-bold">(estimator, safe)</span>
-<span class="ansi-green-fg">     85</span>     new_object_params <span class="ansi-yellow-intense-fg ansi-bold">=</span> estimator<span class="ansi-yellow-intense-fg ansi-bold">.</span>get_params<span class="ansi-yellow-intense-fg ansi-bold">(</span>deep<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     86</span>     <span class="ansi-green-intense-fg ansi-bold">for</span> name<span class="ansi-yellow-intense-fg ansi-bold">,</span> param <span class="ansi-green-intense-fg ansi-bold">in</span> new_object_params<span class="ansi-yellow-intense-fg ansi-bold">.</span>items<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 87</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>new_object_params<span class="ansi-yellow-intense-fg ansi-bold">[</span>name<span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">=</span> clone<span class="ansi-yellow-intense-fg ansi-bold">(</span>param<span class="ansi-yellow-intense-fg ansi-bold">,</span> safe<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     88</span>     new_object <span class="ansi-yellow-intense-fg ansi-bold">=</span> klass<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>new_object_params<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     89</span>     params_set <span class="ansi-yellow-intense-fg ansi-bold">=</span> new_object<span class="ansi-yellow-intense-fg ansi-bold">.</span>get_params<span class="ansi-yellow-intense-fg ansi-bold">(</span>deep<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\utils\validation.py</span> in <span class="ansi-cyan-fg">inner_f</span><span class="ansi-blue-intense-fg ansi-bold">(*args, **kwargs)</span>
-<span class="ansi-green-fg">     70</span>                           FutureWarning)
-<span class="ansi-green-fg">     71</span>         kwargs<span class="ansi-yellow-intense-fg ansi-bold">.</span>update<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">{</span>k<span class="ansi-yellow-intense-fg ansi-bold">:</span> arg <span class="ansi-green-intense-fg ansi-bold">for</span> k<span class="ansi-yellow-intense-fg ansi-bold">,</span> arg <span class="ansi-green-intense-fg ansi-bold">in</span> zip<span class="ansi-yellow-intense-fg ansi-bold">(</span>sig<span class="ansi-yellow-intense-fg ansi-bold">.</span>parameters<span class="ansi-yellow-intense-fg ansi-bold">,</span> args<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">}</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 72</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     73</span>     <span class="ansi-green-intense-fg ansi-bold">return</span> inner_f
-<span class="ansi-green-fg">     74</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\base.py</span> in <span class="ansi-cyan-fg">clone</span><span class="ansi-blue-intense-fg ansi-bold">(estimator, safe)</span>
-<span class="ansi-green-fg">     66</span>     <span class="ansi-red-intense-fg ansi-bold"># XXX: not handling dictionaries</span>
-<span class="ansi-green-fg">     67</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> estimator_type <span class="ansi-green-intense-fg ansi-bold">in</span> <span class="ansi-yellow-intense-fg ansi-bold">(</span>list<span class="ansi-yellow-intense-fg ansi-bold">,</span> tuple<span class="ansi-yellow-intense-fg ansi-bold">,</span> set<span class="ansi-yellow-intense-fg ansi-bold">,</span> frozenset<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 68</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> estimator_type<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span>clone<span class="ansi-yellow-intense-fg ansi-bold">(</span>e<span class="ansi-yellow-intense-fg ansi-bold">,</span> safe<span class="ansi-yellow-intense-fg ansi-bold">=</span>safe<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">for</span> e <span class="ansi-green-intense-fg ansi-bold">in</span> estimator<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     69</span>     <span class="ansi-green-intense-fg ansi-bold">elif</span> <span class="ansi-green-intense-fg ansi-bold">not</span> hasattr<span class="ansi-yellow-intense-fg ansi-bold">(</span>estimator<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;get_params&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">or</span> isinstance<span class="ansi-yellow-intense-fg ansi-bold">(</span>estimator<span class="ansi-yellow-intense-fg ansi-bold">,</span> type<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     70</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> <span class="ansi-green-intense-fg ansi-bold">not</span> safe<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\base.py</span> in <span class="ansi-cyan-fg">&lt;listcomp&gt;</span><span class="ansi-blue-intense-fg ansi-bold">(.0)</span>
-<span class="ansi-green-fg">     66</span>     <span class="ansi-red-intense-fg ansi-bold"># XXX: not handling dictionaries</span>
-<span class="ansi-green-fg">     67</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> estimator_type <span class="ansi-green-intense-fg ansi-bold">in</span> <span class="ansi-yellow-intense-fg ansi-bold">(</span>list<span class="ansi-yellow-intense-fg ansi-bold">,</span> tuple<span class="ansi-yellow-intense-fg ansi-bold">,</span> set<span class="ansi-yellow-intense-fg ansi-bold">,</span> frozenset<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 68</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> estimator_type<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span>clone<span class="ansi-yellow-intense-fg ansi-bold">(</span>e<span class="ansi-yellow-intense-fg ansi-bold">,</span> safe<span class="ansi-yellow-intense-fg ansi-bold">=</span>safe<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">for</span> e <span class="ansi-green-intense-fg ansi-bold">in</span> estimator<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     69</span>     <span class="ansi-green-intense-fg ansi-bold">elif</span> <span class="ansi-green-intense-fg ansi-bold">not</span> hasattr<span class="ansi-yellow-intense-fg ansi-bold">(</span>estimator<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;get_params&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">or</span> isinstance<span class="ansi-yellow-intense-fg ansi-bold">(</span>estimator<span class="ansi-yellow-intense-fg ansi-bold">,</span> type<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     70</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> <span class="ansi-green-intense-fg ansi-bold">not</span> safe<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\utils\validation.py</span> in <span class="ansi-cyan-fg">inner_f</span><span class="ansi-blue-intense-fg ansi-bold">(*args, **kwargs)</span>
-<span class="ansi-green-fg">     70</span>                           FutureWarning)
-<span class="ansi-green-fg">     71</span>         kwargs<span class="ansi-yellow-intense-fg ansi-bold">.</span>update<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">{</span>k<span class="ansi-yellow-intense-fg ansi-bold">:</span> arg <span class="ansi-green-intense-fg ansi-bold">for</span> k<span class="ansi-yellow-intense-fg ansi-bold">,</span> arg <span class="ansi-green-intense-fg ansi-bold">in</span> zip<span class="ansi-yellow-intense-fg ansi-bold">(</span>sig<span class="ansi-yellow-intense-fg ansi-bold">.</span>parameters<span class="ansi-yellow-intense-fg ansi-bold">,</span> args<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">}</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 72</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     73</span>     <span class="ansi-green-intense-fg ansi-bold">return</span> inner_f
-<span class="ansi-green-fg">     74</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\base.py</span> in <span class="ansi-cyan-fg">clone</span><span class="ansi-blue-intense-fg ansi-bold">(estimator, safe)</span>
-<span class="ansi-green-fg">     66</span>     <span class="ansi-red-intense-fg ansi-bold"># XXX: not handling dictionaries</span>
-<span class="ansi-green-fg">     67</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> estimator_type <span class="ansi-green-intense-fg ansi-bold">in</span> <span class="ansi-yellow-intense-fg ansi-bold">(</span>list<span class="ansi-yellow-intense-fg ansi-bold">,</span> tuple<span class="ansi-yellow-intense-fg ansi-bold">,</span> set<span class="ansi-yellow-intense-fg ansi-bold">,</span> frozenset<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 68</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> estimator_type<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span>clone<span class="ansi-yellow-intense-fg ansi-bold">(</span>e<span class="ansi-yellow-intense-fg ansi-bold">,</span> safe<span class="ansi-yellow-intense-fg ansi-bold">=</span>safe<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">for</span> e <span class="ansi-green-intense-fg ansi-bold">in</span> estimator<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     69</span>     <span class="ansi-green-intense-fg ansi-bold">elif</span> <span class="ansi-green-intense-fg ansi-bold">not</span> hasattr<span class="ansi-yellow-intense-fg ansi-bold">(</span>estimator<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;get_params&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">or</span> isinstance<span class="ansi-yellow-intense-fg ansi-bold">(</span>estimator<span class="ansi-yellow-intense-fg ansi-bold">,</span> type<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     70</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> <span class="ansi-green-intense-fg ansi-bold">not</span> safe<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\base.py</span> in <span class="ansi-cyan-fg">&lt;listcomp&gt;</span><span class="ansi-blue-intense-fg ansi-bold">(.0)</span>
-<span class="ansi-green-fg">     66</span>     <span class="ansi-red-intense-fg ansi-bold"># XXX: not handling dictionaries</span>
-<span class="ansi-green-fg">     67</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> estimator_type <span class="ansi-green-intense-fg ansi-bold">in</span> <span class="ansi-yellow-intense-fg ansi-bold">(</span>list<span class="ansi-yellow-intense-fg ansi-bold">,</span> tuple<span class="ansi-yellow-intense-fg ansi-bold">,</span> set<span class="ansi-yellow-intense-fg ansi-bold">,</span> frozenset<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 68</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> estimator_type<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span>clone<span class="ansi-yellow-intense-fg ansi-bold">(</span>e<span class="ansi-yellow-intense-fg ansi-bold">,</span> safe<span class="ansi-yellow-intense-fg ansi-bold">=</span>safe<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">for</span> e <span class="ansi-green-intense-fg ansi-bold">in</span> estimator<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     69</span>     <span class="ansi-green-intense-fg ansi-bold">elif</span> <span class="ansi-green-intense-fg ansi-bold">not</span> hasattr<span class="ansi-yellow-intense-fg ansi-bold">(</span>estimator<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;get_params&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">or</span> isinstance<span class="ansi-yellow-intense-fg ansi-bold">(</span>estimator<span class="ansi-yellow-intense-fg ansi-bold">,</span> type<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     70</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> <span class="ansi-green-intense-fg ansi-bold">not</span> safe<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\utils\validation.py</span> in <span class="ansi-cyan-fg">inner_f</span><span class="ansi-blue-intense-fg ansi-bold">(*args, **kwargs)</span>
-<span class="ansi-green-fg">     70</span>                           FutureWarning)
-<span class="ansi-green-fg">     71</span>         kwargs<span class="ansi-yellow-intense-fg ansi-bold">.</span>update<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">{</span>k<span class="ansi-yellow-intense-fg ansi-bold">:</span> arg <span class="ansi-green-intense-fg ansi-bold">for</span> k<span class="ansi-yellow-intense-fg ansi-bold">,</span> arg <span class="ansi-green-intense-fg ansi-bold">in</span> zip<span class="ansi-yellow-intense-fg ansi-bold">(</span>sig<span class="ansi-yellow-intense-fg ansi-bold">.</span>parameters<span class="ansi-yellow-intense-fg ansi-bold">,</span> args<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">}</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 72</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     73</span>     <span class="ansi-green-intense-fg ansi-bold">return</span> inner_f
-<span class="ansi-green-fg">     74</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\base.py</span> in <span class="ansi-cyan-fg">clone</span><span class="ansi-blue-intense-fg ansi-bold">(estimator, safe)</span>
-<span class="ansi-green-fg">     83</span> 
-<span class="ansi-green-fg">     84</span>     klass <span class="ansi-yellow-intense-fg ansi-bold">=</span> estimator<span class="ansi-yellow-intense-fg ansi-bold">.</span>__class__
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 85</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>new_object_params <span class="ansi-yellow-intense-fg ansi-bold">=</span> estimator<span class="ansi-yellow-intense-fg ansi-bold">.</span>get_params<span class="ansi-yellow-intense-fg ansi-bold">(</span>deep<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     86</span>     <span class="ansi-green-intense-fg ansi-bold">for</span> name<span class="ansi-yellow-intense-fg ansi-bold">,</span> param <span class="ansi-green-intense-fg ansi-bold">in</span> new_object_params<span class="ansi-yellow-intense-fg ansi-bold">.</span>items<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     87</span>         new_object_params<span class="ansi-yellow-intense-fg ansi-bold">[</span>name<span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">=</span> clone<span class="ansi-yellow-intense-fg ansi-bold">(</span>param<span class="ansi-yellow-intense-fg ansi-bold">,</span> safe<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\xgboost\sklearn.py</span> in <span class="ansi-cyan-fg">get_params</span><span class="ansi-blue-intense-fg ansi-bold">(self, deep)</span>
-<span class="ansi-green-fg">    217</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> get_params<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> deep<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    218</span>         <span class="ansi-blue-intense-fg ansi-bold">&#34;&#34;&#34;Get parameters.&#34;&#34;&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 219</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>params <span class="ansi-yellow-intense-fg ansi-bold">=</span> super<span class="ansi-yellow-intense-fg ansi-bold">(</span>XGBModel<span class="ansi-yellow-intense-fg ansi-bold">,</span> self<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>get_params<span class="ansi-yellow-intense-fg ansi-bold">(</span>deep<span class="ansi-yellow-intense-fg ansi-bold">=</span>deep<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    220</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> isinstance<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">,</span> dict<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>  <span class="ansi-red-intense-fg ansi-bold"># if kwargs is a dict, update params accordingly</span>
-<span class="ansi-green-fg">    221</span>             params<span class="ansi-yellow-intense-fg ansi-bold">.</span>update<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\base.py</span> in <span class="ansi-cyan-fg">get_params</span><span class="ansi-blue-intense-fg ansi-bold">(self, deep)</span>
-<span class="ansi-green-fg">    203</span>         &#34;&#34;&#34;
-<span class="ansi-green-fg">    204</span>         out <span class="ansi-yellow-intense-fg ansi-bold">=</span> dict<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 205</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">for</span> key <span class="ansi-green-intense-fg ansi-bold">in</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_get_param_names<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    206</span>             <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    207</span>                 value <span class="ansi-yellow-intense-fg ansi-bold">=</span> getattr<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> key<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\site-packages\sklearn\base.py</span> in <span class="ansi-cyan-fg">_get_param_names</span><span class="ansi-blue-intense-fg ansi-bold">(cls)</span>
-<span class="ansi-green-fg">    172</span>         <span class="ansi-red-intense-fg ansi-bold"># introspect the constructor arguments to find the model parameters</span>
-<span class="ansi-green-fg">    173</span>         <span class="ansi-red-intense-fg ansi-bold"># to represent</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 174</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>init_signature <span class="ansi-yellow-intense-fg ansi-bold">=</span> inspect<span class="ansi-yellow-intense-fg ansi-bold">.</span>signature<span class="ansi-yellow-intense-fg ansi-bold">(</span>init<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    175</span>         <span class="ansi-red-intense-fg ansi-bold"># Consider the constructor parameters excluding &#39;self&#39;</span>
-<span class="ansi-green-fg">    176</span>         parameters = [p for p in init_signature.parameters.values()
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\inspect.py</span> in <span class="ansi-cyan-fg">signature</span><span class="ansi-blue-intense-fg ansi-bold">(obj, follow_wrapped)</span>
-<span class="ansi-green-fg">   3081</span> <span class="ansi-green-intense-fg ansi-bold">def</span> signature<span class="ansi-yellow-intense-fg ansi-bold">(</span>obj<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> follow_wrapped<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">   3082</span>     <span class="ansi-blue-intense-fg ansi-bold">&#34;&#34;&#34;Get a signature object for the passed callable.&#34;&#34;&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 3083</span><span class="ansi-yellow-intense-fg ansi-bold">     </span><span class="ansi-green-intense-fg ansi-bold">return</span> Signature<span class="ansi-yellow-intense-fg ansi-bold">.</span>from_callable<span class="ansi-yellow-intense-fg ansi-bold">(</span>obj<span class="ansi-yellow-intense-fg ansi-bold">,</span> follow_wrapped<span class="ansi-yellow-intense-fg ansi-bold">=</span>follow_wrapped<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   3084</span> 
-<span class="ansi-green-fg">   3085</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\inspect.py</span> in <span class="ansi-cyan-fg">from_callable</span><span class="ansi-blue-intense-fg ansi-bold">(cls, obj, follow_wrapped)</span>
-<span class="ansi-green-fg">   2831</span>         <span class="ansi-blue-intense-fg ansi-bold">&#34;&#34;&#34;Constructs Signature for the given callable object.&#34;&#34;&#34;</span>
-<span class="ansi-green-fg">   2832</span>         return _signature_from_callable(obj, sigcls=cls,
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 2833</span><span class="ansi-yellow-intense-fg ansi-bold">                                         follow_wrapper_chains=follow_wrapped)
-</span><span class="ansi-green-fg">   2834</span> 
-<span class="ansi-green-fg">   2835</span>     <span class="ansi-yellow-intense-fg ansi-bold">@</span>property
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\inspect.py</span> in <span class="ansi-cyan-fg">_signature_from_callable</span><span class="ansi-blue-intense-fg ansi-bold">(obj, follow_wrapper_chains, skip_bound_arg, sigcls)</span>
-<span class="ansi-green-fg">   2282</span>         <span class="ansi-red-intense-fg ansi-bold"># If it&#39;s a pure Python function, or an object that is duck type</span>
-<span class="ansi-green-fg">   2283</span>         <span class="ansi-red-intense-fg ansi-bold"># of a Python function (Cython functions, for instance), then:</span>
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 2284</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> _signature_from_function<span class="ansi-yellow-intense-fg ansi-bold">(</span>sigcls<span class="ansi-yellow-intense-fg ansi-bold">,</span> obj<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   2285</span> 
-<span class="ansi-green-fg">   2286</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> _signature_is_builtin<span class="ansi-yellow-intense-fg ansi-bold">(</span>obj<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\inspect.py</span> in <span class="ansi-cyan-fg">_signature_from_function</span><span class="ansi-blue-intense-fg ansi-bold">(cls, func)</span>
-<span class="ansi-green-fg">   2159</span>         parameters.append(Parameter(name, annotation=annotation,
-<span class="ansi-green-fg">   2160</span>                                     kind<span class="ansi-yellow-intense-fg ansi-bold">=</span>_POSITIONAL_OR_KEYWORD<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 2161</span><span class="ansi-yellow-intense-fg ansi-bold">                                     default=defaults[offset]))
-</span><span class="ansi-green-fg">   2162</span> 
-<span class="ansi-green-fg">   2163</span>     <span class="ansi-red-intense-fg ansi-bold"># *args</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\Users\Pablo\anaconda3\envs\loan_env\lib\inspect.py</span> in <span class="ansi-cyan-fg">__init__</span><span class="ansi-blue-intense-fg ansi-bold">(self, name, kind, default, annotation)</span>
-<span class="ansi-green-fg">   2500</span>             name <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;implicit{}&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>format<span class="ansi-yellow-intense-fg ansi-bold">(</span>name<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   2501</span> 
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 2502</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">if</span> <span class="ansi-green-intense-fg ansi-bold">not</span> name<span class="ansi-yellow-intense-fg ansi-bold">.</span>isidentifier<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">   2503</span>             <span class="ansi-green-intense-fg ansi-bold">raise</span> ValueError<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;{!r} is not a valid parameter name&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>format<span class="ansi-yellow-intense-fg ansi-bold">(</span>name<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   2504</span> 
-
-<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>: </pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -15202,7 +14959,7 @@ During handling of the above exception, another exception occurred:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#filename1 = &#39;model_final_xgboost.sav&#39;</span>
@@ -15222,7 +14979,7 @@ During handling of the above exception, another exception occurred:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">xgboost</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s1">&#39;../modelos/model_xgboost.sav&#39;</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">))</span>
@@ -15236,7 +14993,7 @@ During handling of the above exception, another exception occurred:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">test_y</span><span class="p">,</span> <span class="n">pred_y</span><span class="p">))</span>
@@ -15284,7 +15041,7 @@ weighted avg       0.73      0.76      0.70    115136
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">confusion_matrix</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">test_y</span><span class="p">,</span> <span class="n">pred_y</span><span class="p">)</span>
@@ -15304,13 +15061,13 @@ weighted avg       0.73      0.76      0.70    115136
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay at 0x212d4883988&gt;</pre>
+<pre>&lt;sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay at 0x262ef955708&gt;</pre>
 </div>
 
 </div>
@@ -15338,7 +15095,7 @@ weighted avg       0.73      0.76      0.70    115136
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ConfusionMatrixDisplay</span><span class="p">(</span><span class="n">confusion_matrix</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">confusion_matrix</span><span class="p">))</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
@@ -15357,13 +15114,13 @@ weighted avg       0.73      0.76      0.70    115136
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay at 0x212d4e7f9c8&gt;</pre>
+<pre>&lt;sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay at 0x262efa53088&gt;</pre>
 </div>
 
 </div>
@@ -15404,7 +15161,7 @@ weighted avg       0.73      0.76      0.70    115136
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">metrics</span><span class="o">.</span><span class="n">plot_roc_curve</span><span class="p">(</span><span class="n">xgboost</span><span class="p">,</span> <span class="n">test_x</span><span class="p">,</span> <span class="n">test_y</span><span class="p">)</span>
@@ -15424,13 +15181,13 @@ weighted avg       0.73      0.76      0.70    115136
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&lt;matplotlib.lines.Line2D at 0x212d50c5c48&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x262ef994788&gt;]</pre>
 </div>
 
 </div>
@@ -15463,7 +15220,7 @@ weighted avg       0.73      0.76      0.70    115136
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">precision</span><span class="p">,</span> <span class="n">recall</span><span class="p">,</span> <span class="n">thresholds</span> <span class="o">=</span> <span class="n">precision_recall_curve</span><span class="p">(</span><span class="n">test_y</span><span class="p">,</span> <span class="n">pred_y</span><span class="p">)</span>
@@ -15493,7 +15250,7 @@ weighted avg       0.73      0.76      0.70    115136
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>------------ __Results for XGBClassifier__ ---------------
+<pre>------------ Results for XGBClassifier ---------------
 recall_score: 0.9656215109787868
 roc_auc_score: 0.559254910264366
 Area Under P-R Curve:  0.8810250585868571
@@ -15508,7 +15265,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># predict probabilities</span>
@@ -15579,7 +15336,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predicted_probabilities</span> <span class="o">=</span> <span class="n">xgboost</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">test_x</span><span class="p">)</span>
@@ -15631,7 +15388,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pathfile1</span> <span class="o">=</span> <span class="s1">&#39;../data/loans_joint_clean.csv&#39;</span>
@@ -15645,7 +15402,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[63]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">loans_joint</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">pathfile1</span><span class="p">,</span> <span class="n">engine</span> <span class="o">=</span> <span class="s1">&#39;python&#39;</span><span class="p">)</span>
@@ -15665,7 +15422,7 @@ Area Under P-R Curve:  0.8810250585868571
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[63]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
 
 
 
@@ -15847,7 +15604,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[64]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_joint</span> <span class="o">=</span> <span class="n">loans_joint</span><span class="p">[</span><span class="s1">&#39;loan_status&#39;</span><span class="p">]</span>
@@ -15862,7 +15619,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[65]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">numeric_transformer_0_joint</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">(</span><span class="n">steps</span> <span class="o">=</span> <span class="p">[</span>
@@ -15885,7 +15642,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">numeric_features_0_joint</span> <span class="o">=</span> <span class="n">x_joint</span><span class="o">.</span><span class="n">select_dtypes</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;int64&#39;</span><span class="p">,</span> <span class="s1">&#39;float64&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">columns</span>
@@ -15901,7 +15658,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[67]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">preprocessor_joint</span> <span class="o">=</span> <span class="n">ColumnTransformer</span><span class="p">(</span>
@@ -15920,7 +15677,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
@@ -15939,7 +15696,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[69]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">xgboost_joint</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">(</span><span class="n">steps</span><span class="o">=</span><span class="p">[(</span><span class="s1">&#39;preprocessor_joint&#39;</span><span class="p">,</span> <span class="n">preprocessor_joint</span><span class="p">),</span>
@@ -15955,7 +15712,7 @@ Area Under P-R Curve:  0.8810250585868571
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[70]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">time</span>
@@ -15980,7 +15737,7 @@ xgboost_joint.fit(train_x_joint, train_y_joint)
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Wall time: 469 ms
+<pre>Wall time: 474 ms
 </pre>
 </div>
 </div>
@@ -15988,7 +15745,7 @@ xgboost_joint.fit(train_x_joint, train_y_joint)
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[70]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 
 
 
@@ -16023,7 +15780,7 @@ xgboost_joint.fit(train_x_joint, train_y_joint)
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[71]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;model score: </span><span class="si">%.3f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">xgboost_joint</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">test_x_joint</span><span class="p">,</span> <span class="n">test_y_joint</span><span class="p">))</span>
@@ -16058,7 +15815,7 @@ xgboost_joint.fit(train_x_joint, train_y_joint)
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[72]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">filename_joint</span> <span class="o">=</span> <span class="s1">&#39;model_xgboost_joint.sav&#39;</span>
@@ -16072,7 +15829,7 @@ xgboost_joint.fit(train_x_joint, train_y_joint)
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[73]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">xgboost_joint</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename_joint</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">))</span>
